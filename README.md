@@ -14,10 +14,9 @@ The engineering for this game is restricted to solely using the framework with f
 
 WASD to move,
 Spacebar to jump,
-F to interact (prompts will appear when possible),
+W to interact (works on pipes or doors),
 R to reset (if you get stuck or fall down)
 P to pause,
-L-Control to dash,
 left mouseclick in the menu.
 
 ***Extension suggestions***
@@ -49,32 +48,38 @@ In addition to the proposal laid out below, there are several features which cou
 
 ## Brief Overview of game 
 
-Dino Handyman: Spanner in the Works, will be a single-level metroidvania platformer where the play controls a small dinosaur. To begin with they will be able to jump, as the game progresses they will gain three skills -- dashing, double-jumping and attacking, in order to complete the game. The level will be setup so that progress is only possible with each ability, e.g., to cross the largest gap you will need to double-jump and to dash. The player will be timed while completing the level and at the end of the game, if they complete it without dying, they will be shown their time alongside the best time achieved. Additional levels could be created later thanks to the use of a data-driven level loading system which is used as the tilemap for the game. 
+Super Dino Bros. (Brothers) is going to star a small, innocuous dinosaur that bravely took on the mantle of "hero of the princess" after she was wisked away by none-other-than Pteradon Bull, leader of the sky armies. To return her highness to safety our little dino must use any and all power-up found in the levels to push trough Bull's armies in this side scroller, platformer stage-based world, capturing all forts at the end to progress. There will be multiple levels and at least two biomes with some sort of new feature to accompany them. Due to this being a parody of Mario Bros: any and all powerups will be in level and those levels will have multiple paths to take based on how skilled or unskilled the player is, with high risk attributed to higher reward. There will be no complex movement options like dashing or double jumping, but the simple ones like crouching, running and jumping will need to be used masterfully to complete harder levels. Talking about levels, I am planning, at least, five with at least three unique enemy types in each with the rest being varients of them. The game will also sport a lot of environmental hazards too. Time will also be elapsed during playtime, per level and lives will be the driving force of the player that will either be replenished by good gameplay, avoided completely or lost which will force the player to restart- five lives will be the default for any run.
 
 ## Must Have Features
 
-* Spanner Throwing: The player will be able to press 'r' to throw a spanner in the direction they are facing with a slight arc before it falls to the ground. 
+* Power-ups: Magical items that, when picked up, grant the player either fire, ice or invincibility.
 
-* Enemies: Gremlins will be in certain parts of the level and will move towards a player if they are in range. On collision with the player the level will be reset on collision with a spanner they will despawn.
+* Enemies: Bull's dinos, ground or flying but all just as dangerous as the last in bad circumstances.
+
+* Level Engineering: Making a balanced experience with ingenious design that feels good to play through and has its shares of difficulty.
 
 ## Should Have Features
 
 * Data-driven Level Loading: To create a level large enough to introduce the new mechanics without making the code a mess. 
 
-* Lives and Losing: The play will only have a three lives. If they fall off a platform or hit an enemyn they will lose one life and if they get to zero lives they will see a game over screen.
+* Lives and Losing: The play will only have a total of five lives. If they fall off a platform or hit any of the enemy dinos or hazards they will lose one life and if they get to zero lives they will see a game over screen.
 
-* Pausing: The game will be able to be paused with a simple transparent overlay. Music will be paused similarly and resumed when play continues.
+* Pausing: The game will be able to be paused with a simple transparent overlay. (It might gets its own music)
 
 ## Could Have Features
 
-* Leaderboard: The speed with which a player completes the level will be written to file and then displayed once the level is completed.
+Traversal: the use of pipes and doorways to loead other level chunks or sub levels to be found.
 
-* A Heads-up Display: Showing the time taken so far, the dash, wrench and double-jump cooldowns and the number of lives remaining will be shown fixed to the screen.
+* A Heads-up Display: That shows the elapsed time, lives counter and indications of what item you may have.
 
-* Gremlin Animations: The gremlins will have different animation cycles including walking, running, idle, and attacking, for various actions they can be performing. 
+* Enemy Animations: giving the dino armies their own aniamtions loops and different states of them.
 
 ## Wish to Have Features
 
 * Checkpoints: There will be positions in the level where the player can restart from if they lose a life, should they have got far enough. These will be placed where the player gets new abilities.
 
-* Coyote Time: The platforming will be enhanced by coyote time, a grace period during which the player can still jump even if they are not on a platform. 
+* Coyote Time: The platforming will be enhanced by coyote time, a grace period during which the player can still jump even if they are not on a platform.
+
+* Final Boss: The fight with Bull himself that will need to be unique and entertaining.
+
+* Menus: The addition of a level select screen and just a simple roadmap to access. Settings that personalise the experience and a main menu with a catchy tune to boot.
